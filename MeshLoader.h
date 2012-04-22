@@ -15,7 +15,7 @@
 struct Triangle
 {
 	glm::vec3 v0, v1, v2;
-	glm::vec3 normal;
+	//glm::vec3 normal;
 };
 
 struct ScreenTriangle

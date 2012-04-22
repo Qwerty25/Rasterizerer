@@ -26,6 +26,7 @@ Mesh loadMesh(std::string filename)
         {
             glm::vec3 vert;
             meshStream >> junk >> vert.x >> vert.y >> vert.z;
+            vert *= 4;
             mesh.verts.push_back(vert);
         }
         else if (param == "Face")
